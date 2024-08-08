@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class calulater{
+   //noraml calulater function
 
    public void normal(){
         Scanner sc=new Scanner(System.in);
@@ -50,7 +51,7 @@ public class calulater{
 
         }
     }
-
+//scintfic calulater fucntion
  public void scintific(){    
     double result=0;
     Scanner sc=new Scanner(System.in);
@@ -102,6 +103,7 @@ public class calulater{
 
 
     }
+   //main function
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("choose one");
